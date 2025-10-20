@@ -1,0 +1,11 @@
+html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0; /* Remove default browser margins */
+      padding: 0; /* Remove default browser padding */
+    }
+
+    #root { /* Assuming your root React element has an ID of 'root' */
+      height: 100%;
+      width: 100%;
+    }
