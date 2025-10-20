@@ -1,6 +1,6 @@
 import './App.css'
 import { Routes, Route, Navigate, BrowserRouter } from 'react-router-dom'
-import Pdf from './pages/Pdf.jsx'
+import Pdf from './pages/pdf.jsx'
 
 function App() {
   return (
