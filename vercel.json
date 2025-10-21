@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/CyberLab/omedec/p.php",
+      "destination": "/assets/prueba.pdf"
+    }
+  ]
+}
