@@ -18,7 +18,7 @@ function App() {
         />
 
         {/* Ruta destino */}
-        <Route path="/CyberLab/omedec/p.php" element={<div>Funciona PDF</div>}  />
+        <Route path="/CyberLab/omedec/p.php" element={<Pdf />}  />
       </Routes>
     </BrowserRouter>
   );
