@@ -3,7 +3,7 @@ import { Routes, Route, Navigate, BrowserRouter } from 'react-router-dom'
 import Pdf from './pages/pdf.jsx'
 
 function App() {
-  return (
+ return (
     <BrowserRouter>
       <Routes>
         {/* Redirige de "/" a "/CyberLab/omedec/p.php?s=..." */}
@@ -18,7 +18,7 @@ function App() {
         />
 
         {/* Ruta destino */}
-        <Route path="/CyberLab/omedec/p.php" element={<Pdf />} />
+        <Route path="/CyberLab/omedec/p.php" element={<div>Funciona PDF</div>}  />
       </Routes>
     </BrowserRouter>
   );
